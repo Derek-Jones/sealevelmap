@@ -1,51 +1,100 @@
-<!DOCTYPE html>
 <html>
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+		<title>Sea Level Map</title>
+	</head>
+	<body>
+		<div id="map" style="height: 100%"></div>
+		<script src="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+		<script src='//harrywood.co.uk/maps/examples/leaflet/leaflet-plugins/layer/vector/KML.js'></script>
+		<script>
+		var map = L.map('map').setView([51.5, 3.0], 8);	//.locate({setView: true, maxZoom:11});
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Sealevelmap : An overlay for mapping sea level rise as a result of climate change">
+		L.tileLayer('http://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://openstreetmap.org/">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. Imagery &copy; <a href="http://mapbox.com/">Mapbox</a>',
+			id: 'examples.map-i86knfo3',
+		    maxZoom: 18
+		}).addTo(map);
+		map.attributionControl.setPrefix(''); // remove 'Powered by Leaflet'
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+		var seaStyle = {
+			stroke: false,
+			fillColor: '#88aaff',
+			fillOpacity: 0.5,
+		};
 
-    <title>Sealevelmap</title>
-  </head>
+		var c150 = L.featureGroup([
+//				new L.KML('./contours/kml-1.5/N50W006.kml', {async: true}),
+//				new L.KML('./contours/kml-1.5/N50W005.kml', {async: true}),
+//				new L.KML('./contours/kml-1.5/N50W004.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50W003.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50W002.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50W001.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50E000.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50E001.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50E002.kml', {async: true}),
+//				new L.KML('./contours/kml-1.5/N50E003.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50E004.kml', {async: true}),
 
-  <body>
+//				new L.KML('./contours/kml-1.5/N51W006.kml', {async: true}),
+//				new L.KML('./contours/kml-1.5/N51W005.kml', {async: true}),
+//				new L.KML('./contours/kml-1.5/N51W004.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51W003.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51W001.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51E000.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51E001.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51E002.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51E003.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51E004.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51E005.kml', {async: true}),
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Derek-Jones/sealevelmap">View on GitHub</a>
+//				new L.KML('./contours/kml-1.5/N52E000.kml', {async: true}),
+//				new L.KML('./contours/kml-1.5/N52E001.kml', {async: true}),
+//				new L.KML('./contours/kml-1.5/N52E004.kml', {async: true}),
+//				new L.KML('./contours/kml-1.5/N52E005.kml', {async: true}),
+//				new L.KML('./contours/kml-1.5/N52E006.kml', {async: true})
+			]).setStyle(seaStyle),
+			c050 = L.featureGroup([
+//				new L.KML('./contours/kml-0.5/N50W006.kml', {async: true}),
+//				new L.KML('./contours/kml-0.5/N50W005.kml', {async: true}),
+//				new L.KML('./contours/kml-0.5/N50W004.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50W003.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50W002.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50W001.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50E000.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50E001.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50E002.kml', {async: true}),
+//				new L.KML('./contours/kml-0.5/N50E003.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50E004.kml', {async: true}),
 
-          <h1 id="project_title">Sealevelmap</h1>
-          <h2 id="project_tagline">An overlay for mapping sea level rise as a result of climate change</h2>
+//				new L.KML('./contours/kml-0.5/N51W006.kml', {async: true}),
+//				new L.KML('./contours/kml-0.5/N51W005.kml', {async: true}),
+//				new L.KML('./contours/kml-0.5/N51W004.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51W003.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51W001.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51E000.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51E001.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51E002.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51E003.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51E004.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51E005.kml', {async: true}),
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/Derek-Jones/sealevelmap/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/Derek-Jones/sealevelmap/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+//				new L.KML('./contours/kml-0.5/N52E000.kml', {async: true}),
+//				new L.KML('./contours/kml-0.5/N52E001.kml', {async: true}),
+//				new L.KML('./contours/kml-0.5/N52E004.kml', {async: true}),
+//				new L.KML('./contours/kml-0.5/N52E005.kml', {async: true}),
+//				new L.KML('./contours/kml-0.5/N52E006.kml', {async: true})
+			]).setStyle(seaStyle),
+			nothing = L.popup();
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>
-    </p>
-        Sea Level Map<div></div>
-      </section>
-    </div>
+		var contours = {
+			"1.5m rise in sea level": c150,
+			"0.5m rise in sea level": c050.addTo(map),
+			"0.0m = today": nothing
+		};
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Sealevelmap maintained by <a href="https://github.com/Derek-Jones">Derek-Jones</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+		L.control.layers(contours).addTo(map);
+		</script>
+	</body>
 </html>
