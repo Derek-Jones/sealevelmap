@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<Polygon>
+<innerBoundaryIs> <LinearRing> <coordinates>
+116.6805324,0.1582779,0
+116.6802725,0.1580699,0
+116.6805324,0.1579475,0
+116.6806924,0.1580699,0
+116.6805324,0.1582779,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+116.7520799,0.0583403,0
+116.7519412,0.0582363,0
+116.7520799,0.0578203,0
+116.7521839,0.0582363,0
+116.7520799,0.0583403,0
+	</coordinates> </LinearRing> </innerBoundaryIs>
+<extrude>1</extrude>
+<outerBoundaryIs> <LinearRing> <coordinates>
+116.7547317,0.0342658,0
+116.7551997,0.0341098,0
+116.7554077,0.0339712,0
+116.7555116,0.0341098,0
+116.7560085,0.0349418,0
+116.755893,0.0357737,0
+116.7561703,0.0366057,0
+116.7554077,0.0372593,0
+116.7545757,0.0373544,0
+116.7539517,0.0366057,0
+116.7537438,0.0363561,0
+116.7531198,0.0366057,0
+116.7529118,0.0368136,0
+116.7527732,0.0366057,0
+116.7521393,0.0357737,0
+116.7527732,0.0349418,0
+116.7529118,0.0348378,0
+116.7537438,0.0345258,0
+116.7543261,0.0343594,0
+</coordinates> </LinearRing> </outerBoundaryIs>
+	<innerBoundaryIs> <LinearRing> <coordinates>
+116.7545757,0.0453411,0
+116.7544717,0.0449251,0
+116.7545757,0.0445092,0
+116.7554077,0.0447865,0
+116.7556156,0.0449251,0
+116.7554077,0.0450638,0
+116.7545757,0.0453411,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+116.7620632,0.0193428,0
+116.7619246,0.0191348,0
+116.7620632,0.0189961,0
+116.7622712,0.0191348,0
+116.7620632,0.0193428,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+116.7620632,0.015079,0
+116.7619246,0.014975,0
+116.7620632,0.0148364,0
+116.7622712,0.014975,0
+116.7620632,0.015079,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+116.7627565,0.0141431,0
+116.7628952,0.0143511,0
+116.7633111,0.0141431,0
+116.7628952,0.0140391,0
+116.7627565,0.0141431,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+116.7670549,0.0253744,0
+116.7666389,0.0249584,0
+116.7670549,0.0248197,0
+116.7672629,0.0249584,0
+116.7670549,0.0253744,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+116.7737105,0.002579,0
+116.7735718,0.0024958,0
+116.7737105,0.0022879,0
+116.7741265,0.0024958,0
+116.7737105,0.002579,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+116.7762063,0.0018719,0
+116.7757903,0.0016639,0
+116.7762063,0.0012479,0
+116.7763103,0.0016639,0
+116.7762063,0.0018719,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+116.7764143,0.0008319,0
+116.7770383,0.0010815,0
+116.7773502,0.0008319,0
+116.7770383,0.0008307,0
+116.7764143,0.0008319,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+116.8103161,0.1424016,0
+116.8102121,0.1422629,0
+116.8103161,0.1418469,0
+116.8104548,0.1422629,0
+116.8103161,0.1424016,0
+</coordinates> </LinearRing> </innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-000000-1-76'>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C0000ff</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>

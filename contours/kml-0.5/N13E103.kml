@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<Polygon>
+<innerBoundaryIs> <LinearRing> <coordinates>
+103.3103161,13.637396,0
+103.3101601,13.6372712,0
+103.3103161,13.6371464,0
+103.3103895,13.6372712,0
+103.3103161,13.637396,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.4575707,13.3478132,0
+103.4575113,13.3477537,0
+103.4575707,13.3477017,0
+103.4576227,13.3477537,0
+103.4575707,13.3478132,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.4783694,13.4362001,0
+103.478247,13.4359401,0
+103.4783694,13.435709,0
+103.4792013,13.4358939,0
+103.4792845,13.4359401,0
+103.4792013,13.4359995,0
+103.4783694,13.4362001,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.5224626,13.350309,0
+103.5223932,13.3502496,0
+103.5224626,13.350208,0
+103.5225146,13.3502496,0
+103.5224626,13.350309,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.5432612,13.29297,0
+103.543083,13.2928453,0
+103.5432612,13.2925957,0
+103.5433747,13.2928453,0
+103.5432612,13.29297,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.5461314,13.2891431,0
+103.5460691,13.2895175,0
+103.5457571,13.2900523,0
+103.5449251,13.2897255,0
+103.5448657,13.2895175,0
+103.5449251,13.2894759,0
+103.5454897,13.2892501,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.6464226,13.2363769,0
+103.6463706,13.2362729,0
+103.6464226,13.2362135,0
+103.6466306,13.2362729,0
+103.6464226,13.2363769,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.6663894,13.00703,0
+103.666049,13.0066556,0
+103.6663894,13.0063676,0
+103.6666568,13.0066556,0
+103.6663894,13.00703,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.6672213,13.0078688,0
+103.6668053,13.0074875,0
+103.6672213,13.0071825,0
+103.6675733,13.0074875,0
+103.6672213,13.0078688,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.671381,13.219114,0
+103.671225,13.218802,0
+103.671381,13.218646,0
+103.6715593,13.218802,0
+103.671381,13.219114,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.6772047,13.2139703,0
+103.676858,13.2138103,0
+103.6772047,13.2135132,0
+103.6774646,13.2138103,0
+103.6772047,13.2139703,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.6838602,13.285404,0
+103.6838186,13.2853577,0
+103.6838602,13.2852983,0
+103.6846922,13.2852017,0
+103.6848482,13.2853577,0
+103.6846922,13.285536,0
+103.6838602,13.285404,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.6913478,13.0336418,0
+103.6907654,13.0332779,0
+103.6913478,13.0326955,0
+103.6921797,13.0330699,0
+103.6930116,13.0330996,0
+103.6931899,13.0332779,0
+103.6930116,13.0335275,0
+103.6921797,13.0336938,0
+103.6913478,13.0336418,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.6996672,13.0368136,0
+103.699584,13.0366057,0
+103.6996672,13.0365462,0
+103.6997266,13.0366057,0
+103.6996672,13.0368136,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.7004992,13.0376976,0
+103.6999792,13.0374376,0
+103.7004992,13.0372065,0
+103.7011925,13.0374376,0
+103.7004992,13.0376976,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.7362729,13.319527,0
+103.7360649,13.3194676,0
+103.7362729,13.3193844,0
+103.7363249,13.3194676,0
+103.7362729,13.319527,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.7529118,13.3188956,0
+103.7526807,13.3186356,0
+103.7529118,13.3179423,0
+103.7532089,13.3186356,0
+103.7529118,13.3188956,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.7529118,13.3175957,0
+103.7527558,13.3169717,0
+103.7529118,13.3167637,0
+103.7531198,13.3169717,0
+103.7529118,13.3175957,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.7986689,13.3031257,0
+103.7983222,13.3028286,0
+103.7986689,13.3026686,0
+103.7988422,13.3028286,0
+103.7986689,13.3031257,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.7992334,13.3069884,0
+103.7995008,13.3067209,0
+103.8001248,13.3069884,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.8015807,13.3019967,0
+103.8011647,13.30269,0
+103.8003848,13.3019967,0
+103.8008363,13.3016683,0
+	</coordinates> </LinearRing> </innerBoundaryIs>
+<extrude>1</extrude>
+<outerBoundaryIs> <LinearRing> <coordinates>
+103.8044925,13.2648994,0
+103.8040765,13.2645591,0
+103.8043885,13.2637271,0
+103.8040072,13.2628952,0
+103.8044925,13.262604,0
+103.804816,13.2628952,0
+103.8053245,13.2635488,0
+103.8055027,13.2637271,0
+103.8057404,13.2645591,0
+103.8053245,13.2648502,0
+103.8044925,13.2648994,0
+</coordinates> </LinearRing> </outerBoundaryIs>
+	<innerBoundaryIs> <LinearRing> <coordinates>
+103.8302829,13.2564366,0
+103.8299425,13.2562396,0
+103.8302829,13.2559276,0
+103.8311148,13.255789,0
+103.8317908,13.2562396,0
+103.8312535,13.2570715,0
+103.8315308,13.2579035,0
+103.8311148,13.2581115,0
+103.8310257,13.2579035,0
+103.8310871,13.2570715,0
+103.8302829,13.2564366,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.8336106,13.2575915,0
+103.8333796,13.2570715,0
+103.8336106,13.2568636,0
+103.8339078,13.2570715,0
+103.8336106,13.2575915,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.8951747,13.2588741,0
+103.8950707,13.2587354,0
+103.8951747,13.2586314,0
+103.895244,13.2587354,0
+103.8951747,13.2588741,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+103.9209651,13.2573315,0
+103.9206679,13.2570715,0
+103.9209651,13.2568636,0
+103.9211962,13.2570715,0
+103.9209651,13.2573315,0
+</coordinates> </LinearRing> </innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-000000-1-76'>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C0000ff</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>
