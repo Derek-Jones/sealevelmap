@@ -5,7 +5,9 @@ A user-selectable map showing areas that may be covered by rising sea levels dur
 Using [altitude data collected by NASA on the SRTM Space Shuttle mission](http://en.wikipedia.org/wiki/SRTM) transformed to contours plotted on [OpenStreetMap](http://leafletjs.com/).
 
 The approach is data-driven with global coverage; local approaches include [sealevel.climatecentral.org](http://sealevel.climatecentral.org/surgingseas/place/cities/LA/New_Orleans#show=cities&center=10/30.0331/-89.8826).
-I noticed [this listicle](http://mashable.com/2013/04/05/climate-change-flood-american-cities/) and [worldunderwater.org](http://mashable.com/2014/05/08/sea-level-rise-visualization/) a few months ago but rapidly realised they are [visualising nonsense](http://worldunderwater.org/#/latlon/35.3605555,138.72777769999993&addr=Mt_Fuji,_Kitayama,_Fujinomiya,_Shizuoka,_Japan) that perhaps fuels dismissal of the true facts as much as it [encourages taking control of our situation](http://youtu.be/UKE1G1a1avo).
+Rob noticed [this listicle](http://mashable.com/2013/04/05/climate-change-flood-american-cities/) and [worldunderwater.org](http://mashable.com/2014/05/08/sea-level-rise-visualization/) a few months ago but rapidly realised they are [visualising nonsense](http://worldunderwater.org/#/latlon/35.3605555,138.72777769999993&addr=Mt_Fuji,_Kitayama,_Fujinomiya,_Shizuoka,_Japan) that perhaps fuels dismissal of the true facts as much as it [encourages taking control of our situation](http://youtu.be/UKE1G1a1avo).
+
+The map is of average sea level.  When tides are taken into account the sea level at certain time sof the day may be a lot higher in some areas.  This code was written during a hackathon where we did not have access to tide data (and would not have had time to make use of it anyway) and so the effects of tides are not included.
 
 Sources:
 
