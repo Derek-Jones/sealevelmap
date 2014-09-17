@@ -11,7 +11,7 @@ The map is of average sea level.  When tides are taken into account the sea leve
 
 Sources:
 
-- By 2100 [sea level may rise between 0.5 - 1.1m](http://www.climatechange.gov.au/climate-change/adapting-climate-change/australias-coasts-and-climate-change/mapping-sea-level-rise) relative to 1990.
+- By 2100 [sea level may rise between 0.5 - 1.5m](http://www.climatechange.gov.au/climate-change/adapting-climate-change/australias-coasts-and-climate-change/mapping-sea-level-rise) relative to 1990.
 - [US Coastal Flooding Viewer](http://csc.noaa.gov/slr/viewer/) is both accurate and easily understood. We want to create something like this for global data.
 
 Created by Rob, [Derek](http://shape-of-code.coding-guidelines.com) & Florian for the [#hack4good 0.6 geekli.st Hackathon](https://geekli.st/hackathon/hack4good-06/project/5414211411aa1b810bacc7d6).
